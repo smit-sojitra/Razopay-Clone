@@ -13,7 +13,7 @@
   }
   
   .featureCard:hover .featureCardBox {
-    background-image: url('../Images/features-wave.svg');
+    background-image: url('Images/features-wave.svg');
     background-repeat: no-repeat;
     background-position: bottom 1rem right;
   }
