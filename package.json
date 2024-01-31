@@ -1,11 +1,15 @@
 {
+  "build:css": "postcss main.css -o build/main.css",
   "name": "tailwind",
   "version": "1.0.0",
   "description": "Tailwind",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vite"
+    "start": "vite",
+    "build:css": "postcss input.css -o build/main.css"
+
+    
   },
   "author": "",
   "license": "ISC",
