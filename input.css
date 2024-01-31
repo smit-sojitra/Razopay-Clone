@@ -54,6 +54,7 @@
     }
 }
 .cta{
+  background-image: url('Images/CTABg.svg');
     background-image: 100% 100%;
     
 }
