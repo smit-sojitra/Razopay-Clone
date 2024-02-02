@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.corefeaturesection{
+  background-image: url('Images/core-features-sectionBg.svg');
+}
 .featureCard:hover .featureCardIcon {
     background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
     box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
@@ -13,13 +17,13 @@
   }
   
   .featureCard:hover .featureCardBox {
-    background-image: url('../Images/features-wave.svg');
+    background-image: url('Images/features-wave.svg');
     background-repeat: no-repeat;
     background-position: bottom 1rem right;
   }
   
   .featureCard2:hover .featureCardBox {
-    background-image: url('../Images/features2-wave.svg');
+    background-image: url('Images/features2-wave.svg');
     background-repeat: no-repeat;
     background-position: bottom 1rem right;
   }
@@ -54,8 +58,9 @@
     }
 }
 .cta{
-  background-image: url('Images/CTABg.svg');
+  /* background-image: url('Images/CTABg.svg'); */
     background-image: 100% 100%;
+    background-image: url('Images/CTABg.svg');
     
 }
 .img{
